@@ -1,20 +1,20 @@
-# 🌟 Improved Solar System Gravity Simulation
+# 🌟Solar System Gravity Simulation
 
-A **completely redesigned** 3D OpenGL-based gravity simulation featuring all the planets of our solar system with realistic orbital mechanics and beautiful visualization.
+A sophisticated **OpenGL-based 3D gravity simulation** that demonstrates Newtonian physics, space-time distortion effects, and interactive celestial body creation. This project combines realistic physics with beautiful 3D visualization to create an educational and entertaining space simulation.
 
-## ✨ What's New & Improved
+## ✨ Features
 
-### 🪐 Complete Solar System
-- **Sun**: Bright yellow star at the center with glow effect
-- **All 8 Planets**: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune
-- **Realistic Colors**: Each planet has its characteristic color
-- **Proper Scaling**: Planets are sized and positioned according to real astronomical data
+### 🪐 **Realistic Physics Engine**
+- **Newtonian Gravitation**: Implements F = G × (m₁ × m₂) / r² with real gravitational constant
+- **Real Astronomical Masses**: Uses actual masses of celestial bodies (Sun: 1.989×10²⁵ kg, Earth: 5.972×10²³ kg)
+- **Collision Detection**: Objects bounce off each other with energy loss
+- **Real-time Force Calculation**: All objects interact gravitationally every frame
 
-### 🚀 Enhanced Physics
-- **Real Astronomical Data**: Uses actual masses, radii, and orbital distances
-- **Accurate Orbital Mechanics**: Calculates proper orbital velocities for stable orbits
-- **Real-time Gravitational Forces**: All bodies interact with each other
-- **Collision Detection**: Handles planet collisions realistically
+### 🌟 **Space-Time Visualization**
+- **Dynamic Grid System**: Reference grid that bends around massive objects
+- **General Relativity Effects**: Visual representation of space-time distortion using Schwarzschild radius
+- **Center of Mass Tracking**: Grid automatically adjusts to system's center of mass
+- **Gravitational Field Visualization**: See how mass affects the fabric of space
 
 ### 🎮 Better Controls & Interface
 - **Smooth Camera Movement**: Improved WASD controls with better sensitivity
@@ -22,7 +22,7 @@ A **completely redesigned** 3D OpenGL-based gravity simulation featuring all the
 - **Zoom Controls**: Scroll wheel for getting closer to planets
 - **Reset Camera**: 'R' key to return to optimal viewing position
 - **Pause/Resume**: 'K' key to control simulation speed
-- **Better Window Title**: "Solar System Simulation" instead of "3D_TEST"
+
 
 ### 🎨 Visual Improvements
 - **Smoother Spheres**: Higher resolution sphere rendering (25x25 segments)
@@ -33,8 +33,8 @@ A **completely redesigned** 3D OpenGL-based gravity simulation featuring all the
 ## 🎯 How to Run
 
 ### Quick Start
-1. **Double-click `build.bat`** - This will automatically build and run the simulation
-2. **Or manually build**:
+
+**manually build**:
    ```bash
    mkdir build
    cd build
@@ -43,18 +43,6 @@ A **completely redesigned** 3D OpenGL-based gravity simulation featuring all the
    ./GravitySim
    ```
 
-### What You'll See
-When the simulation starts, you should see:
-- **Yellow Sun** glowing in the center
-- **8 colored planets** orbiting at different distances:
-  - Mercury (gray) - closest to Sun
-  - Venus (orange) 
-  - Earth (blue) - our home planet
-  - Mars (red)
-  - Jupiter (brown) - largest planet
-  - Saturn (light brown)
-  - Uranus (light blue)
-  - Neptune (dark blue) - farthest from Sun
 
 ## 🎮 Controls
 
@@ -68,21 +56,7 @@ When the simulation starts, you should see:
 | **K** | Pause/Resume simulation |
 | **Q** | Quit application |
 
-## 🌍 Solar System Data
 
-The simulation uses real astronomical data:
-
-| Body | Mass (kg) | Radius (km) | Distance from Sun (AU) | Color |
-|------|-----------|-------------|------------------------|-------|
-| Sun | 1.989×10³⁰ | 696,340 | 0.0 | Yellow |
-| Mercury | 3.285×10²³ | 2,439.7 | 0.387 | Gray |
-| Venus | 4.867×10²⁴ | 6,051.8 | 0.723 | Orange |
-| Earth | 5.972×10²⁴ | 6,371.0 | 1.0 | Blue |
-| Mars | 6.39×10²³ | 3,389.5 | 1.524 | Red |
-| Jupiter | 1.898×10²⁷ | 69,911 | 5.203 | Brown |
-| Saturn | 5.683×10²⁶ | 58,232 | 9.537 | Light Brown |
-| Uranus | 8.681×10²⁵ | 25,362 | 19.191 | Light Blue |
-| Neptune | 1.024×10²⁶ | 24,622 | 30.069 | Dark Blue |
 
 ## 🔧 Technical Features
 
