@@ -96,18 +96,6 @@ A sophisticated **OpenGL-based 3D gravity simulation** that demonstrates Newtoni
 - Check that your `CMakeLists.txt` paths match your system
 - Make sure you have a C++17 compatible compiler
 
-## 🚀 Future Enhancements
-
-Potential improvements for future versions:
-- Add moons for major planets
-- Implement elliptical orbits
-- Add asteroid belt
-- Include spacecraft trajectories
-- Add time controls (speed up/slow down)
-- Implement more accurate orbital mechanics
-- Add texture mapping for planets
-- Include atmospheric effects
-
 ## 📝 Code Structure
 
 The improved simulation features:
